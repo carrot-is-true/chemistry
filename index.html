@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+<p>Введите химический символ вашего хим. элемента для игры:</p>
+<input id='elem' type="text" placeholder="Например, Fe"></input>
+
+    <script>var inp1 = document.getElementById('elem')
+inp1.addEventListener('keyup', function (e) {
+  if (e.keyCode == 13) {
+    alert(inp1.value)
+  }
+})</script>
+  </body>
+
+</html>
